@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="A responsive portfolio showcasing projects, skills, and contact information.">
+  <title>Alex Morgan — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Alex Morgan home">AM<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle light and dark theme">☼ Theme</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">DESIGN · CODE · CREATE</p>
+        <h1>Building thoughtful<br><span>digital experiences.</span></h1>
+        <p class="intro">Hi, I'm Alex — a front-end developer who turns ideas into accessible, responsive websites with a little personality.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="#contact">Let's talk</a></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative abstract gradient shapes" role="img">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="art-card"><span>HELLO, WORLD!</span><strong>Creativity<br>meets code.</strong><small>HTML · CSS · JS</small></div>
+      </div>
+    </section>
+
+    <section id="about" class="section-wrap section-block">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by nature.<br>Creative by design.</h2></div>
+      <div class="about-copy"><p>I enjoy making the web feel clear, useful, and welcoming. My approach combines semantic HTML, modern CSS layouts, and small JavaScript enhancements to create experiences that work across screen sizes.</p><p>When I'm not building interfaces, I'm collecting inspiration, learning new tools, and sketching ideas for the next project.</p><a class="text-link" href="#contact">Have a project in mind? ↗</a></div>
+    </section>
+
+    <section id="projects" class="section-wrap section-block">
+      <div class="section-title-row"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects with purpose.</h2></div><span class="section-note">01 — 03</span></div>
+      <div class="project-grid">
+        <article class="project-card project-feature"><div class="project-visual visual-one"><span class="visual-label">01 / WEB DESIGN</span><div class="mock-window"><i></i><i></i><i></i><div class="mock-lines"></div><div class="mock-block"></div></div></div><div class="project-info"><div><h3>Northstar Studio</h3><p>A clean landing page for a creative team.</p></div><span class="project-arrow" aria-hidden="true">↗</span></div></article>
+        <article class="project-card"><div class="project-visual visual-two"><span class="visual-label">02 / PRODUCTIVITY</span><div class="task-board"><b>Today, well spent.</b><span>✓ Plan your week</span><span>✓ Focus time</span><span>○ Take a break</span></div></div><div class="project-info"><div><h3>Daylight Planner</h3><p>A friendly dashboard concept.</p></div><span class="project-arrow" aria-hidden="true">↗</span></div></article>
+        <article class="project-card"><div class="project-visual visual-three"><span class="visual-label">03 / COMMUNITY</span><div class="circle-type">MAKE<br>ROOM<br>TO GROW.</div></div><div class="project-info"><div><h3>Common Ground</h3><p>A community events experience.</p></div><span class="project-arrow" aria-hidden="true">↗</span></div></article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="section-wrap section-block skills-layout"><div><p class="eyebrow">WHAT I BRING</p><h2>Good ideas.<br>Solid foundations.</h2><p class="skills-intro">The right mix of design thinking and front-end fundamentals.</p></div><div class="skill-list"><div><span>01</span><p>Semantic HTML & accessibility</p><b>↗</b></div><div><span>02</span><p>CSS Grid & Flexbox layouts</p><b>↗</b></div><div><span>03</span><p>Responsive, mobile-first design</p><b>↗</b></div><div><span>04</span><p>JavaScript interactions</p><b>↗</b></div><div><span>05</span><p>Design systems & CSS variables</p><b>↗</b></div></div></div>
+    </section>
+
+    <section id="contact" class="section-wrap contact-section">
+      <p class="eyebrow">HAVE A GOOD ONE IN MIND?</p><h2>Let's make it<br><span>happen.</span></h2>
+      <p>I'm always happy to talk about ideas, collaborations, or what you're building.</p>
+      <a class="button primary" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#home">AM<span>.</span></a><p>Designed with curiosity. Built with care.</p><a class="back-top" href="#home">Back to top ↑</a><small>© <span id="year"></span> Alex Morgan</small></footer>
+</body>
+</html>
